@@ -1,0 +1,5 @@
+*
+
+!.gitignore
+!r2\cfg\custom.cfg
+!manager_config.yaml

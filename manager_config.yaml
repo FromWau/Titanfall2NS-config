@@ -1,0 +1,44 @@
+# Global - Settings which persist for every other section
+# =======================================================
+Global:
+    github_token:  # Token for GitHub, can be acquired from: https://github.com/settings/tokens
+
+# Launcher - Defines the to be launched Application with optional args
+# ====================================================================
+Launcher:
+    filename: NorthstarLauncher.exe
+    argumnets: -multiple -novid -windowed -noborder -width 3840 -height 2160 +m_rawinput
+        1 +cl_showfps 2 +exec "custom.cfg"
+
+# Manager - Config for the Manager of Northstar
+# =============================================
+Manager:
+    repository: FromWau/NorthstarManager
+    last_update: '2022-07-25T14:58:37'
+    file: NorthstarManager.exe
+
+# Mods - List of managed mods
+# ===========================
+Mods:
+    Northstar:
+        repository: R2Northstar/Northstar
+        last_update: '2023-05-11T18:27:16'
+        install_dir: .
+        file: NorthstarLauncher.exe
+        exclude_files:
+        - ns_startup_args.txt
+        - ns_startup_args_dedi.txt
+
+
+#    How to install a new mod (example for SpeedOMeter) :
+#    -------------------------
+#    S2speedometer:  # Name of Mod (could be anything)
+#        repository: Mysterious_Reuploads/S2speedometer  # the repo from where to grab the latest release
+
+#    How to configure a new mod (example for CustomScopeFOV) :
+#    -------------------------
+#    CustomScopeFOV:
+#        repository: Avalar/CustomScopeFOV
+#        last_update: '0001-01-01T00:00:00'
+#        exclude_files:
+#        - mod\scripts\weapons\mp_pistols_fov.txt  # specify path to file which should be not excluded from updating
