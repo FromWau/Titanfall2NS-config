@@ -1,24 +1,16 @@
-# Global - Settings which persist for every other section
-# =======================================================
 Global:
-    github_token:  # Token for GitHub, can be acquired from: https://github.com/settings/tokens
+    github_token: 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  # https://github.com/settings/tokens
 
-# Launcher - Defines the to be launched Application with optional args
-# ====================================================================
 Launcher:
     filename: NorthstarLauncher.exe
-    argumnets: -multiple -novid -windowed -noborder -width 3840 -height 2160 +m_rawinput
-        1 +cl_showfps 2 +exec "custom.cfg"
+    argumnets: -multiple -novid -windowed -noborder -width 3840 -height 2160 +exec
+        custom.cfg +cl_showfps 2
 
-# Manager - Config for the Manager of Northstar
-# =============================================
 Manager:
     repository: FromWau/NorthstarManager
     last_update: '2022-07-25T14:58:37'
     file: NorthstarManager.exe
 
-# Mods - List of managed mods
-# ===========================
 Mods:
     Northstar:
         repository: R2Northstar/Northstar
@@ -29,16 +21,81 @@ Mods:
         - ns_startup_args.txt
         - ns_startup_args_dedi.txt
 
+    # Settings / Utility / Frameworks
+    ModSettings:
+        repository: EladNLG/ModSettings
+        last_update: '2023-04-16T18:30:39'
+    ReticlesFramework:
+        repository: Creamy_jpg/Customisable_Reticles_Framework
+        last_update: '2023-04-23T00:18:15'
+    ClientKillCallback:
+        repository: S2Mods/ClientKillCallback
+        last_update: '2023-04-23T11:03:13'
+    MoreSkins:
+        repository: Creamy_jpg/MoreSkinsMinus
+        last_update: '2023-02-22T16:09:43'
+    RemoveMP:
+        repository: iTz_Nao/iTz_Nao__Remove_Locked_Multiplayer
+        last_update: '2022-05-14T01:08:16'
+    EnhancedMenuMod:
+        repository: taskinoz/EnhancedMenuMod
+        last_update: '2022-02-11T12:32:36'
 
-#    How to install a new mod (example for SpeedOMeter) :
-#    -------------------------
-#    S2speedometer:  # Name of Mod (could be anything)
-#        repository: Mysterious_Reuploads/S2speedometer  # the repo from where to grab the latest release
+    # Skins
+    Warpaints:
+        repository: Creamy_jpg/WARPAINTS_MINUS
+        last_update: '2023-02-22T17:00:40'
 
-#    How to configure a new mod (example for CustomScopeFOV) :
-#    -------------------------
-#    CustomScopeFOV:
-#        repository: Avalar/CustomScopeFOV
-#        last_update: '0001-01-01T00:00:00'
-#        exclude_files:
-#        - mod\scripts\weapons\mp_pistols_fov.txt  # specify path to file which should be not excluded from updating
+    # Animations
+    Middlenade:
+        repository: DINOTICK/Middlenade
+        last_update: '2022-10-23T17:08:12'
+    SpinnyP2016:
+        repository: DINOTICK/SpinnyP2016
+        last_update: '2022-10-16T13:00:10'
+
+    # Models:
+    ApexWingman:
+        repository: Trinity_Dusk/Dusk_ApexWingman
+        last_update: '2022-09-13T06:29:57'
+    SpTicks:
+        repository: FromWau/SpTicks
+        last_update: '2022-03-18T02:03:35'
+
+    # HUD
+    HaloAnnouncer:
+        repository: Capt_Diqhedd/HaloAnnouncer
+        last_update: '2023-04-10T22:32:55'
+    Speedometer:
+        repository: S2Mods/SpeedometerV2
+        last_update: '2023-01-24T16:03:12'
+    FixWeaponDesc:
+        repository: NachosChipeados/Fixed_Unused_Weapons_Description
+        last_update: '2023-03-23T01:35:07'
+    DamageFlyout:
+        repository: odds/DamageFlyout
+        last_update: '2023-02-22T10:24:37'
+    RemoveMuzzle:
+        repository: adventure/Remove_Muzzle_Flash
+        last_update: '2023-04-28T15:23:34'
+    CustomScopeFOV:
+        repository: Avalar/CustomScopeFOV
+        last_update: '2022-08-13T02:26:39'
+        exclude_files:
+        - mod\scripts\weapons\mp_pistols_fov.txt
+
+    # Titans
+    RGBIon:
+        repository: pYt/RGBIon
+        last_update: '2023-01-09T11:36:07'
+
+    # Maps
+    WargamesOverhaul:
+        repository: S2Mods/WargamesOverhaul
+        last_update: '2023-04-10T17:50:55'
+    MapLighting:
+        repository: S2Mods/MapLighting
+        last_update: '2022-12-30T23:00:23'
+    RainAndLightning:
+        repository: S2Mods/RainAndLightning
+        last_update: '2022-12-22T19:28:07'
