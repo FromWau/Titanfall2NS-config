@@ -14,7 +14,7 @@ Manager:
 Mods:
     Northstar:
         repository: R2Northstar/Northstar
-        last_update: '2023-06-29T21:47:09'
+        last_update: '2023-07-21T12:52:36'
         install_dir: .
         file: NorthstarLauncher.exe
         exclude_files:
@@ -40,8 +40,11 @@ Mods:
     #TitanFramework:
     #    repository: The_Peepeepoopoo_man/Titanframework
     #    last_update: '2023-04-10T15:04:58'
+    Pulse:
+        repository: ToneAPI/Pulse
+        last_update: '2023-06-13T19:29:39'
 
-    # Skins
+    # Warpaints
     Warpaints:
         repository: Creamy_jpg/WARPAINTS_MINUS
         last_update: '2023-02-22T17:00:40'
@@ -56,32 +59,138 @@ Mods:
     SpinnyP2016:
         repository: DINOTICK/SpinnyP2016
         last_update: '2022-10-16T13:00:10'
+    SpinnyAlternator:
+        repository: DINOTICK/SpinnyAlternator
+        last_update: '2023-02-13T20:29:23'
     Kunai:
         repository: TH3_S4LM0N/kunai_melee
         last_update: '2022-04-05T14:53:52'
+    PhaseShift_OK:
+        repository: RPA60/ok_gesture_replace_phase_gesture
+        last_update: '2022-10-20T12:28:27'
 
     # Models:
-    ApexWingman:
-        repository: Trinity_Dusk/Dusk_ApexWingman
-        last_update: '2022-09-13T06:29:57'
-    ApexWingmanElite:
-        repository: CNS144/Precision_Caliber_apex_wingmanB3
-        last_update: '2023-02-04T20:33:45'
     SpTicks:
         repository: FromWau/SpTicks
         last_update: '2022-03-18T02:03:35'
-    #TF1Pilot:
+    #TF1Pilot: -- Wrong packaging -> crahses
     #    repository: TF1_Mcor_Pilot
     #    last_update: '2022-03-18T02:03:35'
-    UwU_EVA8:
-        repository: smooshie/EVA8_UwU
-        last_update: '2023-05-28T03:52:29'
     RoninBloodySword:
         repository: sammydoodlew/RoninBroadsword_Bloody
         last_update: '2022-10-27T00:51:20'
     NessieNades:
         repository: DINOTICK/NessieNades
         last_update: '2022-04-11T19:30:17'
+    GrapplePilot_Spectre:
+        repository: Trinity_Dusk/Dusk_SpectreMDL
+        last_update: '2023-03-06T03:47:25'
+    PulseFemale_CatEars:
+        repository: Northstar_Archive/Cat_Ears_Pulse_Pilot_Female
+        last_update: '2023-01-13T00:05:05'
+
+    # Weapon Skins
+    ## Assault Rifles
+    R101_MCRN:
+        repository: S2Mods/MMCR101
+        last_update: '2023-07-02T14:22:17'
+    R201_Ecstasy:
+        repository: Juicys_Emporium/R201_HandPainted_Ecstasy
+        last_update: '2022-07-03T07:34:03'
+    Hemlok_UwU:
+        repository: smooshie/Hemlok_UwU
+        last_update: '2023-05-28T03:52:46'
+    G2A5_UwU:
+        repository: smooshie/G2A5_UwU
+        last_update: '2023-05-26T18:51:22'
+    Flatline_Apex:
+        repository: HK560/Apex_Legends_Flatline_HeatSink
+        last_update: '2022-09-03T14:48:09'
+
+    ## Snipers
+    Kraber_UwU:
+        repository: smooshie/Kraber_UwU
+        last_update: '2023-05-28T03:53:05'
+    Kraber_Rush:
+        repository: Almt/Color_Rush
+        last_update: '2023-07-16T18:35:21'
+    DoubleTake_Reclaimer:
+        repository: blacklight/Reclaimer
+        last_update: '2022-12-21T16:58:10'
+    DMR_OmniscientEye:
+        repository: FourthVolt/Omniscient_Eye
+        last_update: '2023-05-12T10:29:00'
+
+    ## Pistols    
+    Wingman_Apex:
+        repository: Trinity_Dusk/Dusk_ApexWingman
+        last_update: '2022-09-13T06:29:57'
+    WingmanElite_Apex:
+        repository: CNS144/Precision_Caliber_apex_wingmanB3
+        last_update: '2023-02-04T20:33:45'
+    Mozambique_National:
+        repository: OdinoTeam/National_Mozambique
+        last_update: '2023-06-06T11:57:22'
+    SmartPistol_Trolled:
+        repository: sammydoodlew/SmartPistol_Trolled
+        last_update: '2022-10-16T01:03:20'
+
+    ## Shotguns    
+    EVA8_UwU:
+        repository: smooshie/EVA8_UwU
+        last_update: '2023-05-28T03:52:29'
+    #EVA8_GDQ23:
+    #    repository: FourthVolt/EVA_8_GDQ_2023
+    #    last_update: '2023-05-28T03:52:29'
+    ## SMGs
+    Volt_UwU:
+        repository: smooshie/Volt_UwU
+        last_update: '2023-05-28T03:53:50'
+    Volt_ReactiveEvo:
+        repository: CNS144/ReactiveEvo_apex_volt
+        last_update: '2022-12-10T08:04:06'
+    #CAR_UwU:
+    #    repository: smooshie/CAR_UwU
+    #    last_update: '2023-05-28T03:52:29'
+    CAR_Lego:
+        repository: blacklight/lego_car
+        last_update: '2022-12-06T16:04:35'
+    Alternator_UwU:
+        repository: smooshie/Alternator_UwU
+        last_update: '2023-05-28T03:51:08'
+    R97_TopiTop:
+        repository: Almt/Topitop
+        last_update: '2023-05-23T13:44:54'
+    ## LMGs
+    Spitfire_Zircon:
+        repository: Juicys_Emporium/Zircon_Spitfire
+        last_update: '2022-10-26T02:44:02'
+    Devotion_Poi:
+        repository: Nebula_Skins/Devotion_POI
+        last_update: '2023-04-19T21:23:51'
+
+    ## Grenadiers
+    EPG_Beast:
+        repository: blacklight/hyperbeast_epg
+        last_update: '2023-02-06T02:45:59'
+
+    ## Secondaries
+    P2016_UwU:
+        repository: smooshie/P2016_UwU
+        last_update: '2023-05-28T03:53:28'
+
+    ## Anti Titan weapons
+    Charge_Rifle_UwU:
+        repository: smooshie/Charge_Rifle_UwU
+        last_update: '2023-05-28T03:52:08'
+    Arch_Laser:
+        repository: Almt/3NVY
+        last_update: '2023-05-23T13:59:55'
+
+    ## Titan weapons
+    Railgun_Neon:
+        repository: Almt/Neonorthern
+        last_update: '2023-05-23T13:52:07'
 
     # Audio
     EnemySpotted:
@@ -95,17 +204,53 @@ Mods:
     RGBPulse:
         repository: TH3_S4LM0N/RGBPulse
         last_update: '2022-05-24T00:24:47'
+    TitanDome_RGB:
+        repository: Spoon/Spoons_Bubbles
+        last_update: '2022-02-05T17:38:44'
+    EnergySiphon_Pink:
+        repository: EXRILL/Exrills_Pink_Energy_Siphon
+        last_update: '2023-07-17T07:59:29'
+    ArcRounds_Pink:
+        repository: EXRILL/Exrills_Pink_Arc_Rounds
+        last_update: '2023-07-03T13:32:33'
+    Railgun_Pink:
+        repository: EXRILL/Exrills_Pink_railgun
+        last_update: '2023-04-24T04:56:06'
+    IonCore_Pink:
+        repository: EXRILL/Exrills_pink_ion_Laser_mod
+        last_update: '2022-03-18T12:45:23'
+    #ScortchFire_Green: -- Broken
+    #    repository: EXRILL/Exrills_Green_Scorch_Fire
+    #    last_update: '2023-02-11T00:02:50'
+    Lstar_Purple:
+        repository: EXRILL/Exrills_purple_Lstar
+        last_update: '2023-07-03T10:12:44'
+    Volt_Purple:
+        repository: EXRILL/Exrills_Iniquity_volt
+        last_update: '2023-02-11T20:49:28'
+    PlasmaColors:
+        repository: EXRILL/Exrills_color_Plasma_pack
+        last_update: '2022-03-19T14:13:58'
+    ChareRifleColors:
+        repository: EXRILL/Exrills_Charge_Rifle_Color_Pack
+        last_update: '2022-04-21T06:41:57'
 
     # HUD
     HaloAnnouncer:
         repository: Capt_Diqhedd/HaloAnnouncer
-        last_update: '2023-06-04T04:11:37'
+        last_update: '2023-07-03T22:09:06'
+    HUDRevmap:
+        repository: EladNLG/HUDRevamp
+        last_update: '2023-07-03T11:01:26'
+    Halo_Hud_Patch:
+        repository: Capt_Diqhedd/HaloAnnouncer_HUDRevamp_Compatibility_Patch
+        last_update: '2023-07-03T20:49:27'
     Speedometer:
         repository: S2Mods/SpeedometerV2
-        last_update: '2023-01-24T16:03:12'
+        last_update: '2023-07-02T14:26:03'
     FixWeaponDesc:
         repository: NachosChipeados/Fixed_Unused_Weapons_Description
-        last_update: '2023-03-23T01:35:07'
+        last_update: '2023-07-21T13:41:35'
     DamageFlyout:
         repository: odds/DamageFlyout
         last_update: '2023-02-22T10:24:37'
@@ -115,14 +260,21 @@ Mods:
     RemoveSunFlares:
         repository: adventure/RemoveSunFlares
         last_update: '2023-04-28T15:23:45'
-    CustomScopeFOV:
-        repository: Avalar/CustomScopeFOV
-        last_update: '2022-08-13T02:26:39'
-        exclude_files:
-        - mod\scripts\weapons\mp_pistols_fov.txt
-    #HUDRevmap:
-    #    repository: EladNLG/HUDRevamp
-    #    last_update: '2023-01-26T15:57:31'
+    #CustomScopeFOV:
+    #    repository: Avalar/CustomScopeFOV
+    #    last_update: '2022-08-13T02:26:39'
+    #    exclude_files:
+    #    - mod\scripts\weapons\mp_pistols_fov.txt
+    Reposition:
+        repository: Dubaser/Complete_Reposition
+        last_update: '2023-07-22T17:27:12'
+    PerfectScopes:
+        repository: Dubaser/Perfect_Scopes
+        last_update: '2022-09-19T13:46:23'
+    FactionIdCards:
+        repository: NachosChipeados/EnableFactionIDCards
+        last_update: '2023-06-17T16:21:42'
+
 
     # Titans
     RGBIon:
@@ -135,27 +287,30 @@ Mods:
     # Maps
     WargamesOverhaul:
         repository: S2Mods/WargamesOverhaul
-        last_update: '2023-04-10T17:50:55'
+        last_update: '2023-07-02T14:27:17'
     GlitchOverhaul:
         repository: S2Mods/GlitchOverhaul
-        last_update: '2023-02-25T12:37:24'
+        last_update: '2023-07-02T14:38:51'
     MapLighting:
         repository: S2Mods/MapLighting
-        last_update: '2023-06-23T11:17:19'
+        last_update: '2023-07-02T14:15:44'
     RainAndLightning:
         repository: S2Mods/RainAndLightning
-        last_update: '2022-12-22T19:28:07'
+        last_update: '2023-07-02T14:23:35'
     NightCity:
         repository: Rwyn/Night_City
-        last_update: '2023-06-20T15:34:48'
+        last_update: '2023-07-02T00:24:22'
     Frostbite:
         repository: Fifty/Frostbite
         last_update: '2022-11-19T18:24:22'
+    KodiaPlus:
+        repository: taskinoz/KodaiPlus
+        last_update: '2022-02-13T10:08:52'
 
     # Game Modes
     Parkour:
         repository: Alystrasz/Parkour
-        last_update: '2023-06-30T21:36:58'
+        last_update: '2023-07-18T22:17:05'
     #Thunderdome:
     #    repository: Thunderdome/Thunderdome
     #    last_update: '2023-03-05T17:01:24'
