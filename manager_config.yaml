@@ -14,6 +14,7 @@ Manager:
 Mods:
     Northstar:
         repository: R2Northstar/Northstar
+        ignore_updates: true
         last_update: '2023-10-19T15:42:57'
         install_dir: .
         file: NorthstarLauncher.exe
@@ -34,9 +35,6 @@ Mods:
     EnhancedMenuMod:
         repository: taskinoz/EnhancedMenuMod
         last_update: '2022-02-11T12:32:36'
-    #TitanFramework:
-    #    repository: The_Peepeepoopoo_man/Titanframework
-    #    last_update: '2023-04-10T15:04:58'
     #Pulse: -- Broken
     #    repository: ToneAPI/Pulse
     #    last_update: '2023-10-13T17:06:45'
@@ -45,9 +43,6 @@ Mods:
     Warpaints:
         repository: Creamy_jpg/WARPAINTS_MINUS
         last_update: '2023-02-22T17:00:40'
-    MoreSkins:
-        repository: Creamy_jpg/MoreSkinsMinus
-        last_update: '2023-02-22T16:09:43'
 
     # Animations
     Middlenade:
@@ -137,15 +132,9 @@ Mods:
     #    repository: FourthVolt/EVA_8_GDQ_2023
     #    last_update: '2023-05-28T03:52:29'
     ## SMGs
-    #Volt_UwU:
-    #    repository: smooshie/Volt_UwU
-    #    last_update: '2023-05-28T03:53:50'
     Volt_ReactiveEvo:
         repository: CNS144/ReactiveEvo_apex_volt
         last_update: '2022-12-10T08:04:06'
-    #CAR_UwU:
-    #    repository: smooshie/CAR_UwU
-    #    last_update: '2023-05-28T03:52:29'
     CAR_Lego:
         repository: blacklight/lego_car
         last_update: '2022-12-06T16:04:35'
@@ -174,9 +163,6 @@ Mods:
         last_update: '2023-05-28T03:53:28'
 
     ## Anti Titan weapons
-    #Charge_Rifle_UwU:
-    #    repository: smooshie/Charge_Rifle_UwU
-    #    last_update: '2023-05-28T03:52:08'
     Arch_Laser:
         repository: Almt/3NVY
         last_update: '2023-05-23T13:59:55'
@@ -190,7 +176,7 @@ Mods:
     EnemySpotted:
         repository: Khalmee/Enemy_Spotted_Grunts
         last_update: '2023-01-08T22:28:11'
-    #GoffySounds: -- V1.1.2 works manual install
+    #GoffySounds: -- Sometimes crashes game
     #    repository: theNon/Goofy_Ahh_Soundpack
     #    last_update: '2023-10-26T14:02:28'
     #HotHotHot:
@@ -245,9 +231,6 @@ Mods:
     Speedometer:
         repository: S2Mods/SpeedometerV2
         last_update: '2023-07-02T14:26:03'
-    FixWeaponDesc:
-        repository: NachosChipeados/Fixed_Unused_Weapons_Description
-        last_update: '2023-07-21T13:41:35'
     DamageFlyout:
         repository: odds/DamageFlyout
         last_update: '2023-09-18T13:22:53'
@@ -263,9 +246,6 @@ Mods:
     PerfectScopes:
         repository: Dubaser/Perfect_Scopes
         last_update: '2022-09-19T13:46:23'
-    FactionIdCards:
-        repository: NachosChipeados/EnableFactionIDCards
-        last_update: '2023-06-17T16:21:42'
 
 
     # Titans
@@ -292,28 +272,6 @@ Mods:
     NightCity:
         repository: Rwyn/Night_City
         last_update: '2023-08-30T14:28:11'
-    #Frostbite:
-    #    repository: Fifty/Frostbite
-    #    last_update: '2022-11-19T18:24:22'
-    #KodiaPlus:
-    #    repository: taskinoz/KodaiPlus
-    #    last_update: '2022-02-13T10:08:52'
-
-    # Game Modes
-    #Parkour:
-    #    repository: Alystrasz/Parkour
-    #    last_update: '2023-08-29T18:51:52'
-    #Thunderdome:
-    #    repository: Thunderdome/Thunderdome
-    #    last_update: '2023-03-05T17:01:24'
-    #BombingRun:
-    #    repository: Alystrasz/BombingRun
-    #    last_update: '2022-08-04T16:33:20'
-
-    # Singleplayer
-    #RogueLikeBETA:
-    #    repository: EladNLG/RoguelikeBETA
-    #    last_update: '2023-01-28T17:51:48'
 
     # Menus
     MainMenuBackground:
