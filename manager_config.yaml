@@ -3,7 +3,7 @@ Global:
 
 Launcher:
     filename: NorthstarLauncher.exe
-    argumnets: -multiple -novid -windowed -noborder -width 3840 -height 2160 +exec
+    argumnets: -multiple -novid -windowed -noborder -width 2560 -height 1440 +exec
         custom.cfg +cl_showfps 2
 
 Manager:
@@ -14,7 +14,7 @@ Manager:
 Mods:
     Northstar:
         repository: R2Northstar/Northstar
-        last_update: '2023-07-21T12:52:36'
+        last_update: '2023-10-19T15:42:57'
         install_dir: .
         file: NorthstarLauncher.exe
         exclude_files:
@@ -27,22 +27,19 @@ Mods:
         last_update: '2023-04-16T18:30:39'
     ReticlesFramework:
         repository: Creamy_jpg/Customisable_Reticles_Framework
-        last_update: '2023-04-23T00:18:15'
+        last_update: '2023-08-08T14:53:16'
     ClientKillCallback:
         repository: S2Mods/ClientKillCallback
         last_update: '2023-04-23T11:03:13'
-    RemoveMP:
-        repository: iTz_Nao/iTz_Nao__Remove_Locked_Multiplayer
-        last_update: '2022-05-14T01:08:16'
     EnhancedMenuMod:
         repository: taskinoz/EnhancedMenuMod
         last_update: '2022-02-11T12:32:36'
     #TitanFramework:
     #    repository: The_Peepeepoopoo_man/Titanframework
     #    last_update: '2023-04-10T15:04:58'
-    Pulse:
-        repository: ToneAPI/Pulse
-        last_update: '2023-06-13T19:29:39'
+    #Pulse: -- Broken
+    #    repository: ToneAPI/Pulse
+    #    last_update: '2023-10-13T17:06:45'
 
     # Warpaints
     Warpaints:
@@ -73,7 +70,7 @@ Mods:
     SpTicks:
         repository: FromWau/SpTicks
         last_update: '2022-03-18T02:03:35'
-    #TF1Pilot: -- Wrong packaging -> crahses
+    #TF1Pilot: #-- Wrong packaging -> needs manuell install
     #    repository: TF1_Mcor_Pilot
     #    last_update: '2022-03-18T02:03:35'
     RoninBloodySword:
@@ -82,9 +79,6 @@ Mods:
     NessieNades:
         repository: DINOTICK/NessieNades
         last_update: '2022-04-11T19:30:17'
-    GrapplePilot_Spectre:
-        repository: Trinity_Dusk/Dusk_SpectreMDL
-        last_update: '2023-03-06T03:47:25'
     PulseFemale_CatEars:
         repository: Northstar_Archive/Cat_Ears_Pulse_Pilot_Female
         last_update: '2023-01-13T00:05:05'
@@ -143,9 +137,9 @@ Mods:
     #    repository: FourthVolt/EVA_8_GDQ_2023
     #    last_update: '2023-05-28T03:52:29'
     ## SMGs
-    Volt_UwU:
-        repository: smooshie/Volt_UwU
-        last_update: '2023-05-28T03:53:50'
+    #Volt_UwU:
+    #    repository: smooshie/Volt_UwU
+    #    last_update: '2023-05-28T03:53:50'
     Volt_ReactiveEvo:
         repository: CNS144/ReactiveEvo_apex_volt
         last_update: '2022-12-10T08:04:06'
@@ -172,7 +166,7 @@ Mods:
     ## Grenadiers
     EPG_Beast:
         repository: blacklight/hyperbeast_epg
-        last_update: '2023-02-06T02:45:59'
+        last_update: '2023-09-20T20:13:19'
 
     ## Secondaries
     P2016_UwU:
@@ -180,9 +174,9 @@ Mods:
         last_update: '2023-05-28T03:53:28'
 
     ## Anti Titan weapons
-    Charge_Rifle_UwU:
-        repository: smooshie/Charge_Rifle_UwU
-        last_update: '2023-05-28T03:52:08'
+    #Charge_Rifle_UwU:
+    #    repository: smooshie/Charge_Rifle_UwU
+    #    last_update: '2023-05-28T03:52:08'
     Arch_Laser:
         repository: Almt/3NVY
         last_update: '2023-05-23T13:59:55'
@@ -196,9 +190,12 @@ Mods:
     EnemySpotted:
         repository: Khalmee/Enemy_Spotted_Grunts
         last_update: '2023-01-08T22:28:11'
-    HotHotHot:
-        repository: FromWau/HotHotHot
-        last_update: '2023-07-01T02:22:37'
+    #GoffySounds: -- V1.1.2 works manual install
+    #    repository: theNon/Goofy_Ahh_Soundpack
+    #    last_update: '2023-10-26T14:02:28'
+    #HotHotHot:
+    #    repository: FromWau/HotHotHot
+    #    last_update: '2023-07-01T02:22:37'
 
     # Fx
     RGBPulse:
@@ -219,7 +216,7 @@ Mods:
     IonCore_Pink:
         repository: EXRILL/Exrills_pink_ion_Laser_mod
         last_update: '2022-03-18T12:45:23'
-    #ScortchFire_Green: -- Broken
+    #ScortchFire_Green: # -- Broken
     #    repository: EXRILL/Exrills_Green_Scorch_Fire
     #    last_update: '2023-02-11T00:02:50'
     Lstar_Purple:
@@ -238,13 +235,13 @@ Mods:
     # HUD
     HaloAnnouncer:
         repository: Capt_Diqhedd/HaloAnnouncer
-        last_update: '2023-07-03T22:09:06'
+        last_update: '2023-09-23T16:07:58'
     HUDRevmap:
         repository: EladNLG/HUDRevamp
         last_update: '2023-07-03T11:01:26'
     Halo_Hud_Patch:
         repository: Capt_Diqhedd/HaloAnnouncer_HUDRevamp_Compatibility_Patch
-        last_update: '2023-07-03T20:49:27'
+        last_update: '2023-10-20T03:52:45'
     Speedometer:
         repository: S2Mods/SpeedometerV2
         last_update: '2023-07-02T14:26:03'
@@ -253,18 +250,13 @@ Mods:
         last_update: '2023-07-21T13:41:35'
     DamageFlyout:
         repository: odds/DamageFlyout
-        last_update: '2023-02-22T10:24:37'
+        last_update: '2023-09-18T13:22:53'
     RemoveMuzzle:
         repository: adventure/Remove_Muzzle_Flash
         last_update: '2023-04-28T15:23:34'
     RemoveSunFlares:
         repository: adventure/RemoveSunFlares
         last_update: '2023-04-28T15:23:45'
-    #CustomScopeFOV:
-    #    repository: Avalar/CustomScopeFOV
-    #    last_update: '2022-08-13T02:26:39'
-    #    exclude_files:
-    #    - mod\scripts\weapons\mp_pistols_fov.txt
     Reposition:
         repository: Dubaser/Complete_Reposition
         last_update: '2023-07-22T17:27:12'
@@ -280,9 +272,9 @@ Mods:
     RGBIon:
         repository: pYt/RGBIon
         last_update: '2023-01-09T11:36:07'
-    OS_Restoration:
-        repository: Northstar_Archive/OS_Restoration
-        last_update: '2022-11-23T04:31:54'
+    #OS_Restoration: -- Broken script error
+    #    repository: Northstar_Archive/OS_Restoration
+    #    last_update: '2022-11-23T04:31:54'
 
     # Maps
     WargamesOverhaul:
@@ -299,29 +291,29 @@ Mods:
         last_update: '2023-07-02T14:23:35'
     NightCity:
         repository: Rwyn/Night_City
-        last_update: '2023-07-02T00:24:22'
-    Frostbite:
-        repository: Fifty/Frostbite
-        last_update: '2022-11-19T18:24:22'
-    KodiaPlus:
-        repository: taskinoz/KodaiPlus
-        last_update: '2022-02-13T10:08:52'
+        last_update: '2023-08-30T14:28:11'
+    #Frostbite:
+    #    repository: Fifty/Frostbite
+    #    last_update: '2022-11-19T18:24:22'
+    #KodiaPlus:
+    #    repository: taskinoz/KodaiPlus
+    #    last_update: '2022-02-13T10:08:52'
 
     # Game Modes
-    Parkour:
-        repository: Alystrasz/Parkour
-        last_update: '2023-07-18T22:17:05'
+    #Parkour:
+    #    repository: Alystrasz/Parkour
+    #    last_update: '2023-08-29T18:51:52'
     #Thunderdome:
     #    repository: Thunderdome/Thunderdome
     #    last_update: '2023-03-05T17:01:24'
-    BombingRun:
-        repository: Alystrasz/BombingRun
-        last_update: '2022-08-04T16:33:20'
+    #BombingRun:
+    #    repository: Alystrasz/BombingRun
+    #    last_update: '2022-08-04T16:33:20'
 
     # Singleplayer
-    RogueLikeBETA:
-        repository: EladNLG/RoguelikeBETA
-        last_update: '2023-01-28T17:51:48'
+    #RogueLikeBETA:
+    #    repository: EladNLG/RoguelikeBETA
+    #    last_update: '2023-01-28T17:51:48'
 
     # Menus
     MainMenuBackground:
